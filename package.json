@@ -1,0 +1,27 @@
+{
+  "name": "gitlab-clone",
+  "version": "1.0.0",
+  "description": "A gitlab clone",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauravChanda/gitlab-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauravChanda/gitlab-clone/issues"
+  },
+  "homepage": "https://github.com/SauravChanda/gitlab-clone#readme",
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
